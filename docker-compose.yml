@@ -9,7 +9,7 @@ services:
     environment:
       POSTGRES_PASSWORD: sekret
     ports:
-      - "8889:3000"
+      - "8890:8888"
 
   jobs:
     <<: *WEB
